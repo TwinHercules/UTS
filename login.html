@@ -24,28 +24,34 @@
             <div class="flex flex-col gap-2">
               <label for="">Alamat Email</label>
               <input
+                id="email"
                 type="email"
                 placeholder="Masukkan Alamat Email Anda"
                 class="border-1 border-gray-500 rounded-3xl w-100 p-2 flex justify-center"
+                required
               />
             </div>
             <div class="flex flex-col gap-2">
               <label for="">Nama Lengkap</label>
               <input
+                id="nama"
                 type="text"
                 placeholder="Masukkan Nama Lengkap Anda"
                 class="border-1 border-gray-500 rounded-3xl w-100 p-2 flex justify-center"
+                required
               />
             </div>
             <div class="flex flex-col gap-2">
               <label for="">Password</label>
               <input
+                id="password"
                 type="password"
                 placeholder="Masukkan Password Anda"
                 class="border-1 border-gray-500 rounded-3xl w-100 p-2 flex justify-center"
+                required
               />
             </div>
-            <div class="w-100 bg-indigo-800 p-2 text-center rounded-3xl text-white">
+            <div class="w-100 bg-indigo-800 p-2 text-center rounded-3xl text-white" onclick="validasi()">
               <a href="">Sign Up</a>
             </div>
             <div class="flex justify-center items-center gap-5 w-100 border-1 border-gray-500 p-2 text-center rounded-3xl text-black">
@@ -56,5 +62,6 @@
         </div>
       </div>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
